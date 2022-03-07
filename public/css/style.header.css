@@ -1,0 +1,53 @@
+
+body{
+    
+    background-image: url(../img/img-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh; 
+    position: relative;
+    padding: 0;
+    margin: 0;
+   
+
+}
+body::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#51bfd0 ;
+    z-index: -1;
+    opacity: 0.2; 
+    
+
+}
+
+.header{
+    display: flex;
+    background-color:#052426 ;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 10%;  
+}
+
+.titre1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    height: 100%;
+    font-size: 1.3em;
+    word-spacing: 35%;
+    
+}
+
+.header img{
+    width: 5%;   
+    height: 100%;
+
+}
+
