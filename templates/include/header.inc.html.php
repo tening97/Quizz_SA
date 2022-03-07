@@ -12,10 +12,10 @@
 
 <body>
     <div class="header">
-
-        <img class="logo" src="<?= WEBROOT . "img" . DIRECTORY_SEPARATOR . "logo-QuizzSA.png" ?>">
-
-        <span class="titre1">
-            <h2> Le plaisir de jouer</h2>
-        </span>
+        <div class="logo">
+            <img src="<?= WEBROOT . "img" . DIRECTORY_SEPARATOR . "logo-QuizzSA.png" ?>">
+        </div>
+        <div class="titre1">
+            <p class="h2"> Le plaisir de jouer</p>
+        </div>
     </div>

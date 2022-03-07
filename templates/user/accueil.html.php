@@ -4,15 +4,11 @@ require_once(PATH_VIEWS . "include" . DIRECTORY_SEPARATOR . "header.inc.html.php
 ?>
 
 <link rel="stylesheet" href="<?= WEBROOT . "css" . DIRECTORY_SEPARATOR . "style.accueil.css" ?>">
-<div>
-    <?php
 
-    ?>
-</div>
 
 <div class="container">
     <div class="head">
-        <h2>CRÉER ET PARAMÉTRER VOS QUIZZ</h2>
+        <P class="h3">CRÉER ET PARAMÉTRER VOS QUIZZ</p>
         <button class="deconnexion"><a href="<?= WEBROOT . "?controller=securite&action=deconnexion" ?>">Déconnexion</a></button>
     </div>
     <div class="corps">

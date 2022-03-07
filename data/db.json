@@ -11,24 +11,16 @@
         {
             "nom": " faye",
             "prenom": "Aissatou",
-            "login": "admin@gmail.com",
-            "password": "admin22",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": " faye",
-            "prenom": "Aissatou",
             "login": "jo@gmail.com",
             "password": "adminer1",
             "role": "ROLE_JOUEUR",
-            "score": 2
+            "score": 1234
         },
         {
             "nom": " Ngom",
             "prenom": "Tening",
             "login": "teningngom97@gmail.com",
-            "password": "admint",
+            "password": "admine12",
             "role": "ROLE_ADMIN",
             "score": 0
         },

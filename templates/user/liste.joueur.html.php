@@ -2,11 +2,11 @@
 
 
 
- <table>
+<table>
     <tr>
-        <th>Nom</th>
-        <th>Prénom</th>
-        <th>Score</th>
+        <td><b>NOM</b> </td>
+        <td><b>PRENOM</b></td>
+        <td><b>SCORE</b></td>
     </tr>
 
     <tr>
