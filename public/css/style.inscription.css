@@ -11,13 +11,19 @@
     padding: 0;
     
 }
+.container0{
+    display: flex;
+    justify-content: center;
+    
+}
 .container1{
     display: flex;
-    min-width: 50%;
-    margin: 0 20% 0 20%;
+    justify-content: space-between;
     border-radius: 10px;
-    height: 90%;
+    height: 70vh;
+    width: 70%;
     background-color: white;
+
     box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
 }
 /* body{
@@ -26,59 +32,95 @@
     background-size: cover;
 } */
 .titre{
-    margin-bottom: 2vh;
+    margin-bottom: 3%;
 }
 .gauche{
     /* border: 2px solid green; */
-    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 3%;
     
+}
+.droite{
+    width: 30%;    
 }
 .droite1{
     display: flex;
     justify-content: center;
     border: 2px solid var(--bleu);
-    height: 225px;
-    width: 220px;
+    height: 41%;
+    width: 90%;
     border-radius: 50%;
-    margin-left: 2vw;
-    margin-top: 3vh;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2%;
 }
-.div{
+.param ,.param1, .param2, .param3, .param4{
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.5vh;
+    margin-bottom: 3%;
+    border: none;
+    /* border: solid 2px green; */
 }
 input{
-    height: 7vh;
+    height: 4vh;
     border: 1px solid rgb(170, 170, 170);
+    
     border-radius: 5px;
-    outline-color: var(--bleu);
+    outline:none;
 }
 
 .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
     color: grey;
 }
+
 p{
     color: grey;
 }
 
 .img1{
     border-radius: 50%;
+    width: 100%;
+    height: 100%;
 }
-
-button{
+.labChoice{
     background-color: var(--bleu);
-    height: 7vh;
-    margin-top: 2vh;
+    padding: 8px;
+    color: white;
     border: none;
     width: 10vw;
     border-radius: 5px;
+   text-align: center;
 }
+
 #creer{
+    background-color: var(--bleu);
+    padding: 10px;
+    color: white;
+    border: none;
+    width: 10vw;
+    border-radius: 5px;
     margin-left: 40%;
+    
+
 }
 
 #fichier {
     
     visibility: hidden;
+}
+/* .header{
+    visibility: hidden;
+} */
+.fiche{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  
 }

@@ -5,6 +5,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($_REQUEST['action'] == "connexion") {
             $login = $_POST['login'];
             $password = $_POST['password'];
+            $_SESSION['info_con']['login'] = $login;
+            $_SESSION['info_con']['password'] = $password;
             connexion($login, $password);
         }
     }
@@ -14,14 +16,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $login = $_POST['login'];
         $password = $_POST['password'];
         $password1 = $_POST['password1'];
+        //Garder les donnees saisies au cas ou il ya erreur
+        $_SESSION['info_temp']['nom'] = $nom;
+        $_SESSION['info_temp']['prenom'] = $prenom;
+        $_SESSION['info_temp']['login'] = $login;
         inscrire($nom,  $prenom, $login, $password, $password1);
-        if (!isset($_SESSION[KEY_UER_CONNECT])) {
-            header("location:" . WEBROOT . "?controller=securite&action=connexion");
-            exit();
-        } else {
-            header("location:" . WEBROOT . "?controller=user&action=accueil ");
-            exit();
-        }
     }
 }
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
@@ -110,6 +109,9 @@ function inscrire(string $nom, string $prenom, string $login, string $password, 
         valid_password('password1', $password1, $errors);
     } */
     if (count($errors) == 0) {
+
+        $login_use = find_users_login($login);
+
         if (!find_users_login($login)) {
             if ($password == $password1) {
                 if (!isset($_SESSION[KEY_UER_CONNECT])) {
@@ -121,19 +123,33 @@ function inscrire(string $nom, string $prenom, string $login, string $password, 
                 }
 
                 array_to_json("users", $tab);
+                if (!isset($_SESSION[KEY_UER_CONNECT])) {
+                    header("location:" . WEBROOT . "?controller=securite&action=connexion");
+                } else {
+                    header("location:" . WEBROOT . "?controller=securite&action=accueil");
+                }
             } else {
                 $errors['confirmation'] = "Les mots de passe ne correspondent pas";
                 $_SESSION[KEY_ERROR] = $errors;
-                header("location:" . WEBROOT . "?controller=securite&action=inscription ");
+                header("location:" . WEBROOT . "?controller=securite&action=inscription");
                 exit();
             }
         } else {
             $errors['error_login'] = "Le login existe déjà";
             $_SESSION[KEY_ERROR] = $errors;
-            header("location:" . WEBROOT . "?controller=securite&action=inscription ");
-            exit();
+            if (!isset($_SESSION[KEY_UER_CONNECT])) {
+                header("location:" . WEBROOT . "?controller=securite&action=inscription");
+            } else {
+                header("location:" . WEBROOT . "?controller=user&action=creer.admin");
+            }
         }
     } else {
+        /*  if (!find_users_login($login)) {
+            $errors['error_login'] = "Le login existe déjà";
+            $_SESSION[KEY_ERROR] = $errors;
+            header("location:" . WEBROOT . "?controller=securite&action=inscription ");
+            exit();
+        } */
         $_SESSION[KEY_ERROR] = $errors;
         header("location:" . WEBROOT . "?controller=securite&action=inscription ");
         exit();

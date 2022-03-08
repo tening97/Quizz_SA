@@ -8,6 +8,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         }
     }
 }
+
+
+
 if ($_SERVER['REQUEST_METHOD'] == "GET") {
     if (isset($_GET['action'])) {
         if (!is_connect()) {
@@ -20,6 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] == "GET") {
             lister_joueur();
         } elseif ($_REQUEST['action'] == "creer.admin") {
             creer_admin();
+
+
+            //require_once(PATH_VIEWS . "user" . DIRECTORY_SEPARATOR . "accueil.html.php");
         }
     }
 }
@@ -34,6 +40,7 @@ function lister_joueur()
 }
 function creer_admin()
 {
+
     ob_start();
     // $data = find_users(ROLE_JOUEUR);
     require_once(PATH_VIEWS . "securite" . DIRECTORY_SEPARATOR . "inscription.html.php");

@@ -18,14 +18,24 @@ function validateEmail(input) {
     }
 }
 
+
 function valid_password(input) {
-    if (!input.value.match(/[a-zA-Z]/) || !input.value.match(/[0-9]/) || input.value < 6) {
+
+    if (!input.value.match(/^(?=.*[0-9])(?=.*[a-zA-Z])[a-zA-Z0-9!@#$%^&*]{6,}$/)) {
         return true;
     }
     else {
         return false;
     }
 }
+/* function valid_password(input) {
+    if (!input.value.match(/[a-zA-Z]/) || !input.value.match(/[0-9]/) || input.value < 6) {
+        return true;
+    }
+    else {
+        return false;
+    }
+} */
 
 function checkRequired(inputArray) {
     inputArray.forEach(input => {

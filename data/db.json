@@ -143,6 +143,150 @@
             "password": "ibou12",
             "role": "ROLE_JOUEUR",
             "score": 0
+        },
+        {
+            "nom": "SARR",
+            "prenom": "Amadou",
+            "login": "amadou@gmail.com",
+            "password": "admin44",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "Beye Mbele",
+            "prenom": "Mbaye Sow",
+            "login": "mbs@gmail.com",
+            "password": "msb123",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "Ngom",
+            "prenom": "Ibrahima ",
+            "login": "joeuryyy@gmail.com",
+            "password": "rere12",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Ngom",
+            "prenom": "Ibrahima ",
+            "login": "admin13@gmail.com",
+            "password": "admin13",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Ngom",
+            "prenom": "Ibrahima ",
+            "login": "admin14@gmail.com",
+            "password": "admin14",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "joeu123r@gmail.com",
+            "password": "rerere12",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "admin123@gmail.com",
+            "password": "admin123",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "admin122@gmail.com",
+            "password": "admin122",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "admin121@gmail.com",
+            "password": "admin123",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "DIA",
+            "prenom": "Ibrahima  khaliloulah",
+            "login": "joueur33@gmail.com",
+            "password": "rere12",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "joueur223@gmail.com",
+            "password": "rere12",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Faye",
+            "prenom": "mouhamed",
+            "login": "joueur890@gmail.com",
+            "password": "joueur890",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "DIOP",
+            "prenom": "MAMAN",
+            "login": "teningngom971@gmail.com",
+            "password": "rere12",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "tening",
+            "login": "admin10@gmail.com",
+            "password": "rere12",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "MARI",
+            "prenom": "Fallou",
+            "login": "mari@gmail.com",
+            "password": "mari12",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "DIOP",
+            "prenom": "Fallou",
+            "login": "diopfalou@gmail.com",
+            "password": "tretre12",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "teningngom979@gmail.com",
+            "password": "rere12",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "cherif",
+            "login": "adminch@gmail.com",
+            "password": "adminch1",
+            "role": "ROLE_ADMIN",
+            "score": 0
         }
     ]
 }

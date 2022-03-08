@@ -3,14 +3,71 @@
     border: 2px solid;
 } */
 table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85%;
+    width: 80%;
+    border-collapse: collapse;
+    
+}
 
-    height: 100%;
-    width: 50%;
-    margin-left: 20%;
-    padding: 1%;
-}
 td {
-    font-weight: 400;
-    width: 1vw;
-    padding: 0 8% 0 8%;
+    
+    width: 30%;
+    height: 20%;
+  
 }
+
+h4{
+    margin-top: 2%;
+    margin-left: 25%;
+}
+tr{
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: flex-start;
+    
+}
+.tabjoueurs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 55vh;
+    border: 2px solid #51bfd0;
+    border-radius: 5px;
+
+
+ }
+ .next{
+
+    background-color: #39ddd6;
+    width: 15%;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 5px 5px rgba(8, 4, 8,0.2);
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+
+.suivante{
+    margin-top: 1%;
+    display: flex;
+    width: 81%;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+}
+
+.cont{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+
+}
+

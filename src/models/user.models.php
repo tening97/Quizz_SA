@@ -21,11 +21,13 @@ function find_users(string $role): array
 }
 function find_users_login(string $login)
 {
-    $users = json_to_array("users");
-    foreach ($users as $user) {
-        if ($user['login'] == $login)
-            return true;
-    }
 
+    $users = json_to_array("users");
+
+    foreach ($users as $user) {
+        if ($user['login'] == $login) {
+            return true;
+        }
+    }
     return false;
 }

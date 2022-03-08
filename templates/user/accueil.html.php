@@ -1,6 +1,8 @@
 <?php
 require_once(PATH_VIEWS . "include" . DIRECTORY_SEPARATOR . "header.inc.html.php");
-
+if (isset($_SESSION['info_temp'])) {
+    unset($_SESSION['info_temp']);
+}
 ?>
 
 <link rel="stylesheet" href="<?= WEBROOT . "css" . DIRECTORY_SEPARATOR . "style.accueil.css" ?>">
