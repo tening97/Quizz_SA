@@ -16,11 +16,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $login = $_POST['login'];
         $password = $_POST['password'];
         $password1 = $_POST['password1'];
+        $photo = $_FILES['fichier']['tmp_name'];
+        $temp_name = $_FILES['fichier']["name"];
+        //$_SESSION['temp_name'] = $temp_name;
+
         //Garder les donnees saisies au cas ou il ya erreur
         $_SESSION['info_temp']['nom'] = $nom;
         $_SESSION['info_temp']['prenom'] = $prenom;
         $_SESSION['info_temp']['login'] = $login;
-        inscrire($nom,  $prenom, $login, $password, $password1);
+        $_SESSION['info_temp']['photo'] = $photo;
+
+
+        inscrire($nom,  $prenom, $login, $password, $password1, $photo, $temp_name);
     }
 }
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
@@ -82,7 +89,7 @@ function logout()
     header("location:" . WEBROOT);
     exit();
 }
-function inscrire(string $nom, string $prenom, string $login, string $password, string $password1)
+function inscrire(string $nom, string $prenom, string $login, string $password, string $password1, string $temp_name, string $photo)
 {
     $errors = [];
     $tab = [];
@@ -104,13 +111,23 @@ function inscrire(string $nom, string $prenom, string $login, string $password, 
         valid_password('password', $password, $errors);
         $tab['password'] = $password;
     }
+
     champ_obligatoire('password1', $password1, $errors);
     /* if (!isset($errors['password1'])) {
         valid_password('password1', $password1, $errors);
     } */
-    if (count($errors) == 0) {
+    champ_obligatoire('photo', $photo, $errors);
+    if (!isset($errors['photo'])) {
+        $tab['photo'] = $photo;
+    }
 
-        $login_use = find_users_login($login);
+
+    if ($photo != "") {
+
+        move_uploaded_file($temp_name, PATH_UPLOAD . $photo);
+    }
+
+    if (count($errors) == 0) {
 
         if (!find_users_login($login)) {
             if ($password == $password1) {
@@ -126,7 +143,7 @@ function inscrire(string $nom, string $prenom, string $login, string $password, 
                 if (!isset($_SESSION[KEY_UER_CONNECT])) {
                     header("location:" . WEBROOT . "?controller=securite&action=connexion");
                 } else {
-                    header("location:" . WEBROOT . "?controller=securite&action=accueil");
+                    header("location:" . WEBROOT . "?controller=user&action=accueil");
                 }
             } else {
                 $errors['confirmation'] = "Les mots de passe ne correspondent pas";

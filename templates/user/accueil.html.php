@@ -16,30 +16,43 @@ if (isset($_SESSION['info_temp'])) {
     <div class="corps">
         <div class="navbar">
             <div class="headnav">
-                <div class="info"></div>
+
                 <div class="avatar">
-                    <img class="avatar1" src="<?= WEBROOT . "uploads" . DIRECTORY_SEPARATOR . "avatar.jpg" ?>" alt="" width="90%" height="90%">
+                    <img class="avatar1" src="<?= WEBROOT."uploads".DIRECTORY_SEPARATOR. $_SESSION[KEY_UER_CONNECT]['photo'] ?>" alt="">
+                </div>
+                <div class="info">
+                    <div class="nom"><?= $_SESSION[KEY_UER_CONNECT]['nom'] ?></div>
+                    <div class="prenom"> <?= $_SESSION[KEY_UER_CONNECT]['prenom'] ?></div>
+
                 </div>
             </div>
             <div class="corpsnav">
                 <?php if (is_admin()) { ?>
                     <ul>
-                        <li>
-                            <span> <a href="">Liste des Questions</a></span>
-                            <img src="img/ic-liste.png" alt="">
-                        </li>
-                        <li>
-                            <span> <a href="<?= WEBROOT . "?controller=user&action=creer.admin" ?>"> Créer Admin</a></span>
-                            <img src="img/ic-ajout.png" alt="">
-                        </li>
-                        <li>
-                            <span><a href="<?= WEBROOT . "?controller=user&action=liste.joueur" ?>">Liste des joueurs</a></span>
-                            <img src="img/ic-liste.png" alt="">
-                        </li>
-                        <li>
-                            <span>Créer Questions</span>
-                            <img src="img/ic-ajout.png" alt="">
-                        </li>
+
+                        <a href="">
+                            <li>Liste des Questions <img src="img/ic-liste.png" alt=""></li>
+                        </a>
+
+
+
+                        <a href="<?= WEBROOT . "?controller=user&action=creer.admin" ?>">
+                            <li> Créer Admin <img src="img/ic-ajout.png" alt=""></li>
+
+                        </a>
+
+
+                        <a href="<?= WEBROOT . "?controller=user&action=liste.joueur" ?>">
+                            <li>Liste des joueurs<img src="img/ic-liste.png" alt=""></li>
+                        </a>
+
+
+
+                        <a href="">
+                            <li>Créer Questions <img src="img/ic-ajout.png" alt=""></li>
+                        </a>
+
+
                     <?php } ?>
                     </ul>
             </div>

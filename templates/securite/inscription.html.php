@@ -16,7 +16,7 @@ if (isset($_SESSION[KEY_ERROR])) {
             </div>
             <hr>
 
-            <form action="<?= WEBROOT ?>" method="POST" class="form" id="form">
+            <form action="<?= WEBROOT ?>" method="POST" class="form" id="form" enctype="multipart/form-data">
                 <input type="hidden" name="controller" value="securite">
                 <input type="hidden" name="action" value="inscription">
 
@@ -64,14 +64,14 @@ if (isset($_SESSION[KEY_ERROR])) {
                     <label for="fichier" class="labChoice">choisir un fichier</label>
                     <!-- <button>choisir un fichier</button> -->
                 </div>
-                <input type="file" title=" " id="fichier" name="fichier" id="fichier">
+                <input type="file" title=" " name="fichier" id="fichier" value="">
 
                 <button id="creer">Créer un compte</button>
             </form>
         </div>
         <div class="droite">
             <div class="droite1">
-                <img src="<?= WEBROOT . "img" . DIRECTORY_SEPARATOR . "avatar.jpg" ?>" alt="" width="220px" height="220px" class="img1">
+                <img src="" alt="" width="220px" height="220px" class="img1">
             </div>
         </div>
     </div>

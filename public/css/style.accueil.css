@@ -37,7 +37,6 @@ a:hover{
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-   
     height: 70%;
 
 }
@@ -49,6 +48,10 @@ li{
     list-style: none;
     margin: 8% 4% 0 2%;
     font-size: 1.8em;
+}
+li:hover{
+    border-left: green 4px solid ;
+    background-color: bisque;
 }
 .head{
     background-color: #51bfd0;
@@ -106,13 +109,23 @@ li{
 .headnav{
     display: flex;
     align-items: center;
+    /* justify-content:space-evenly; */
     background-color: #51bfd0;
     height: 30%; 
+    padding: 0 5% 0 15%;
     background: linear-gradient(180deg,white,#51bfd0);
 }
 
 .info{
-    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    width: 40%;
+    height: 60%;
+   align-items: center;
+   justify-content: center;
+ 
+  margin-left: 10%;
 
 }
 
@@ -130,10 +143,8 @@ height: 90%;
     display: flex;
     justify-content: center;
     border-radius: 50%;
-    margin-left: 3vw;
     width: 20%;
     height: 90%;
-
     border: 1.6px solid ;
 }
 .avatar1{
@@ -146,4 +157,7 @@ li img{
     height: 100%;
     margin-right: 4%;
     
+}
+.prenom{
+    margin-left: 25%;
 }

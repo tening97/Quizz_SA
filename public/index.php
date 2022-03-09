@@ -11,7 +11,6 @@ require_once dirname(dirname(__FILE__)) . "/config/role.php";
 //Charger l'orm
 require_once dirname(dirname(__FILE__)) . "/config/orm.php";
 require_once(PATH_VIEWS . "include" . DIRECTORY_SEPARATOR . "header.inc.html.php");
-
-require_once(PATH_VIEWS . "include" . DIRECTORY_SEPARATOR . "footer.inc.html.php");
 //Charger le router
 require_once dirname(dirname(__FILE__)) . "/config/router.php";
+require_once(PATH_VIEWS . "include" . DIRECTORY_SEPARATOR . "footer.inc.html.php");

@@ -1,22 +1,6 @@
 {
     "users": [
         {
-            "nom": "Wane",
-            "prenom": "Birane Baila",
-            "login": "joeur@gmail.com",
-            "password": "joueur1",
-            "role": "ROLE_JOUEUR",
-            "score": 15
-        },
-        {
-            "nom": " faye",
-            "prenom": "Aissatou",
-            "login": "jo@gmail.com",
-            "password": "adminer1",
-            "role": "ROLE_JOUEUR",
-            "score": 1234
-        },
-        {
             "nom": " Ngom",
             "prenom": "Tening",
             "login": "teningngom97@gmail.com",
@@ -57,75 +41,11 @@
             "score": 0
         },
         {
-            "nom": "Diop",
-            "prenom": "Mhd Mbele ",
-            "login": "mhddiop12@gmail.com",
-            "password": "mhddiop1",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
-            "prenom": "oumy",
-            "login": "oumy@gmail.com",
-            "password": "oumyndiaye1",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
-            "prenom": "Moustapha Sarr",
-            "login": "joeur12@gmail.com",
-            "password": "azerty12",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "DIOP",
-            "prenom": "Moustapha ",
-            "login": "moustapha@gmail.com",
-            "password": "tapha12",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "MARI",
-            "prenom": "Ibrahima ",
-            "login": "ibra@gmail.com",
-            "password": "toto12",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
-            "prenom": "Ibrahima ",
-            "login": "joeur33@gmail.com",
-            "password": "zaza12",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "Diop",
-            "prenom": "Moustapha Sarr",
-            "login": "sarrtaph@gmail.com",
-            "password": "tata12",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
             "nom": "NDIAYE",
             "prenom": "MAMAN",
             "login": "joueur121@gmail.com",
             "password": "momo12",
             "role": "ROLE_JOUEUR",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
-            "prenom": "Fallou",
-            "login": "louf@gmail.com",
-            "password": "fallou12",
-            "role": "ROLE_ADMIN",
             "score": 0
         },
         {
@@ -142,22 +62,6 @@
             "login": "ibrag@gmail.com",
             "password": "ibou12",
             "role": "ROLE_JOUEUR",
-            "score": 0
-        },
-        {
-            "nom": "SARR",
-            "prenom": "Amadou",
-            "login": "amadou@gmail.com",
-            "password": "admin44",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "Beye Mbele",
-            "prenom": "Mbaye Sow",
-            "login": "mbs@gmail.com",
-            "password": "msb123",
-            "role": "ROLE_ADMIN",
             "score": 0
         },
         {
@@ -281,10 +185,20 @@
             "score": 0
         },
         {
-            "nom": "NDIAYE",
-            "prenom": "cherif",
-            "login": "adminch@gmail.com",
-            "password": "adminch1",
+            "nom": "FAYE",
+            "prenom": "Khadija",
+            "login": "khadija12@gmail.com",
+            "password": "khadija12",
+            "photo": "A5.jpg",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "Ngom",
+            "prenom": "Tening",
+            "login": "teningngom9@gmail.com",
+            "password": "tening1",
+            "photo": "A7.jpg",
             "role": "ROLE_ADMIN",
             "score": 0
         }
