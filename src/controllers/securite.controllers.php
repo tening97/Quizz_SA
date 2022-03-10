@@ -16,18 +16,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $login = $_POST['login'];
         $password = $_POST['password'];
         $password1 = $_POST['password1'];
-        $photo = $_FILES['fichier']['tmp_name'];
-        $temp_name = $_FILES['fichier']["name"];
-        //$_SESSION['temp_name'] = $temp_name;
+        $temp_name = $_FILES['fichier']['tmp_name'];
+        $file_name = $_FILES['fichier']["name"];
+
+        //$_SESSION['temp_name'] = $file_name;
 
         //Garder les donnees saisies au cas ou il ya erreur
         $_SESSION['info_temp']['nom'] = $nom;
         $_SESSION['info_temp']['prenom'] = $prenom;
         $_SESSION['info_temp']['login'] = $login;
-        $_SESSION['info_temp']['photo'] = $photo;
+        $_SESSION['info_temp']['photo'] = $temp_name;
 
 
-        inscrire($nom,  $prenom, $login, $password, $password1, $photo, $temp_name);
+        inscrire($nom,  $prenom, $login, $password, $password1, $temp_name, $file_name);
     }
 }
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
@@ -89,7 +90,7 @@ function logout()
     header("location:" . WEBROOT);
     exit();
 }
-function inscrire(string $nom, string $prenom, string $login, string $password, string $password1, string $temp_name, string $photo)
+function inscrire(string $nom, string $prenom, string $login, string $password, string $password1, string $file_name, string $temp_name)
 {
     $errors = [];
     $tab = [];
@@ -116,16 +117,34 @@ function inscrire(string $nom, string $prenom, string $login, string $password, 
     /* if (!isset($errors['password1'])) {
         valid_password('password1', $password1, $errors);
     } */
-    champ_obligatoire('photo', $photo, $errors);
+    champ_obligatoire('photo', $temp_name, $errors,);
+
+    $nom_fichier = '';
+    $log = explode('@', $login);
+    $log = $log[count($log) - 2];
+    if (!isset($_SESSION[KEY_UER_CONNECT])) {
+        $nom_fichier = $log . '.' . ROLE_JOUEUR;
+        /* var_dump($nom_fichier);
+        die(); */
+    } else {
+        $nom_fichier = $log . '.' . ROLE_ADMIN;
+        /* var_dump($nom_fichier);
+        die(); */
+    }
+
     if (!isset($errors['photo'])) {
-        $tab['photo'] = $photo;
+        $directory = PATH_UPLOAD;
+        uploadImage($file_name, $temp_name, $directory, $nom_fichier);
+        $tab['photo'] = $temp_name;
     }
 
 
-    if ($photo != "") {
 
-        move_uploaded_file($temp_name, PATH_UPLOAD . $photo);
-    }
+
+    /*  if ($temp_nam != "") {
+
+        move_uploaded_file($file_name, PATH_UPLOAD . $temp_name);
+    } */
 
     if (count($errors) == 0) {
 

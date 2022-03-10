@@ -1,7 +1,7 @@
 
 body{
     
-    background-image: url(../img/img-bg.jpg);
+   background-image: url(../img/img-bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
@@ -18,11 +18,9 @@ body::after{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:#94cdd6 ;
+    background-color:#2ec1d8 ;
     z-index: -1;
     opacity: 0.2; 
-    
-
 }
 
 .header{

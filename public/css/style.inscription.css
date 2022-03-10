@@ -90,8 +90,9 @@ p{
     height: 100%;
 }
 .labChoice{
-    background-color: var(--bleu);
+   
     padding: 8px;
+    height: 10%;
     color: white;
     border: none;
     width: 10vw;
@@ -123,4 +124,7 @@ p{
     width: 100%;
     justify-content: space-between;
   
+}
+.avatarTitle{
+    margin-left: 20%;
 }

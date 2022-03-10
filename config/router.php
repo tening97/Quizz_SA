@@ -8,6 +8,9 @@ if (isset($_REQUEST['controller'])) {
         case "user":
             require_once(PATH_SRC . "controllers/user.controllers.php");
             break;
+        case "questions":
+            require_once(PATH_SRC . "controllers/questions.controllers.php");
+            break;
     }
 } else {
     require_once(PATH_SRC . "controllers/securite.controllers.php");

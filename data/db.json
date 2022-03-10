@@ -201,6 +201,276 @@
             "photo": "A7.jpg",
             "role": "ROLE_ADMIN",
             "score": 0
+        },
+        {
+            "nom": "SOW",
+            "prenom": "RAWANE",
+            "login": "rawsow@gmail.com",
+            "password": "rawane1",
+            "photo": "A12.jpg",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "FALL",
+            "prenom": "Maman",
+            "login": "maman12@gmail.com",
+            "password": "maman12",
+            "photo": "A6.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Mouhamed",
+            "login": "ameth12@gmail.com",
+            "password": "ameth12",
+            "photo": "A12.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Ngom",
+            "prenom": "Fallou",
+            "login": "fallou12@gmail.com",
+            "password": "fallou12",
+            "photo": "A10.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "FAYE",
+            "prenom": "Ibrahima ",
+            "login": "ibou123@gmail.com",
+            "password": "ibou123",
+            "photo": "A9.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "DIOP",
+            "prenom": "Khadija",
+            "login": "khadija13@gmail.com",
+            "password": "khadija13",
+            "photo": "A5.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "tening",
+            "login": "dsfhhjd@hdhgh.dhhd",
+            "password": "azerty1",
+            "photo": "A12.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "tening",
+            "login": "joeur@gmail.comghgj",
+            "password": "azerty1",
+            "photo": "A11.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "tening",
+            "login": "joeur@gmail.comggj",
+            "password": "azerty1",
+            "photo": "joeur@gmail.comggj.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "joeur@gmail.comjdqw",
+            "password": "azerty1",
+            "photo": "A8.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "joeur@gmail.comffrfrf",
+            "password": "azerty1",
+            "photo": "Presentation PHP MVC.pdf",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "joeur@gmail.com",
+            "password": "azerty1",
+            "photo": "A6.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima dedeez",
+            "login": "joeur@gmail.comaaa",
+            "password": "azerty1",
+            "photo": "A7.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Moustapha Sarr",
+            "login": "joeurndiaye@gmail.com",
+            "password": "azerty1",
+            "photo": "A8.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Ngom",
+            "prenom": "Ibrahima sarr",
+            "login": "adminsarr@gmail.com",
+            "password": "zerty1",
+            "photo": "A8.jpg",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "ndiaye@gmail.com",
+            "password": "radio12",
+            "photo": "A8.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Ngom",
+            "prenom": "Meissa",
+            "login": "rawane@gmail.com",
+            "password": "azerty1",
+            "photo": "A9.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "ndiayeiba@gmail.com",
+            "password": "radio1",
+            "photo": "A7.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "ibrahima@googlemail.com",
+            "password": "radio1",
+            "photo": "nom.png",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "joeurndiayesarr@gmail.com",
+            "password": "radio1",
+            "photo": "psswd.png",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "MARI",
+            "prenom": "Ibrahima ",
+            "login": "azertya@gmail.com",
+            "password": "radio12",
+            "photo": "A7.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Moustapha Sarr",
+            "login": "joeurtapha@gmail.com",
+            "password": "azerty1",
+            "photo": "A12.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "MARI",
+            "prenom": "Ibrahima ",
+            "login": "joueur34@gmail.com",
+            "password": "joueur34",
+            "photo": "A12.jpg",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Khadija",
+            "login": "khadija15@gmail.com",
+            "password": "khadija12",
+            "photo": "WhatsApp Image 2022-02-01 at 15.18.33-converti.docx",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "DIOP",
+            "prenom": "Mouhamed",
+            "login": "mhd123@gmail.com",
+            "password": "azerty1",
+            "photo": "A3.jpg",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "Diop",
+            "prenom": "Awa",
+            "login": "awadiop@gmail.com",
+            "password": "awa123",
+            "photo": "awadiop.ROLE_ADMIN",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Awa",
+            "login": "awa123@gmail.com",
+            "password": "awa123",
+            "photo": "awa123.ROLE_ADMIN",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "DIOP",
+            "prenom": "Adama",
+            "login": "adama123@gmail.com",
+            "password": "adama123",
+            "photo": "adama123.ROLE_ADMIN",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ibrahima ",
+            "login": "ndiayeiba00@gmail.com",
+            "password": "azerty1",
+            "photo": "\/tmp\/phpt4YEBo",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "DIOP",
+            "prenom": "Fallou",
+            "login": "fallou121@gmail.com",
+            "password": "azerty1",
+            "photo": "A12.jpg",
+            "role": "ROLE_ADMIN",
+            "score": 0
         }
     ]
 }

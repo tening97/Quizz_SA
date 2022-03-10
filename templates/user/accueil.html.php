@@ -18,7 +18,7 @@ if (isset($_SESSION['info_temp'])) {
             <div class="headnav">
 
                 <div class="avatar">
-                    <img class="avatar1" src="<?= WEBROOT."uploads".DIRECTORY_SEPARATOR. $_SESSION[KEY_UER_CONNECT]['photo'] ?>" alt="">
+                    <img class="avatar1" src="<?= WEBROOT . "uploads" . DIRECTORY_SEPARATOR . $_SESSION[KEY_UER_CONNECT]['photo'] ?>" alt="">
                 </div>
                 <div class="info">
                     <div class="nom"><?= $_SESSION[KEY_UER_CONNECT]['nom'] ?></div>
@@ -48,7 +48,7 @@ if (isset($_SESSION['info_temp'])) {
 
 
 
-                        <a href="">
+                        <a href="<?= WEBROOT . "?controller=questions&action=creer.question" ?>">
                             <li>Créer Questions <img src="img/ic-ajout.png" alt=""></li>
                         </a>
 

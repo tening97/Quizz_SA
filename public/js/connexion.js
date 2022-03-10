@@ -8,7 +8,7 @@ const item1 = document.getElementById('item1');
 
 
 
-function validateEmail(input) {
+/* function validateEmail(input) {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     if (!re.test(input.value.trim().toLowerCase())) {
@@ -16,7 +16,17 @@ function validateEmail(input) {
     } else {
         return false;
     }
+} */
+function validateEmail(input) {
+    const re = /^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$/;
+
+    if (!re.test(input.value.trim().toLowerCase())) {
+        return true;
+    } else {
+        return false;
+    }
 }
+
 
 
 function valid_password(input) {

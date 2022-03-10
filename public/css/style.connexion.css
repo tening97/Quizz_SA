@@ -129,6 +129,9 @@ a{
     background-repeat: no-repeat;
   }
    */
+*{
+  overflow: hidden;
+}
   h1 {
     margin-left: 30vw;
   }

@@ -13,11 +13,10 @@ const param1 = document.getElementById('param1');
 const param2 = document.getElementById('param2');
 const param3 = document.getElementById('param3');
 const param4 = document.getElementById('param4');
-console.log(login.value);
-console.log(password.value);
-console.log(form);
+const image = document.getElementById('img');
+const divImage = document.getElementsByClassName('droite')
 
-function validateEmail(input) {
+/* function validateEmail(input) {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     if (!re.test(input.value.trim().toLowerCase())) {
@@ -25,8 +24,17 @@ function validateEmail(input) {
     } else {
         return false;
     }
-}
+} */
 
+function validateEmail(input) {
+    const re = /^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$/;
+
+    if (!re.test(input.value.trim().toLowerCase())) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 function valid_password(input) {
 
@@ -73,7 +81,11 @@ function samePwd(input1, input2) {
 
 }
 
+function load(photo) {
 
+    const img = document.getElementById('img')
+    img.src = window.URL.createObjectURL(photo.files[0]);
+}
 
 
 login.addEventListener('input', function () {
@@ -129,7 +141,7 @@ password1.addEventListener('input', function () {
 
 
 form.addEventListener('submit', function (e) {
-    if (validateEmail(login) || valid_password(password) || checkRequired([prenom, nom, login, password]) || !samePwd(password, password1)) {
+    if (validateEmail(login) || valid_password(password) || checkRequired([prenom, nom, login, password, image]) || !samePwd(password, password1)) {
         e.preventDefault();
         form.style.border = '4px solid red';
     }

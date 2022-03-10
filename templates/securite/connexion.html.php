@@ -46,4 +46,5 @@ if (isset($_SESSION['info_temp'])) {
     </div>
 
 </div>
+
 <script src="<?= WEBROOT . "js" . DIRECTORY_SEPARATOR . "connexion.js" ?>"></script>

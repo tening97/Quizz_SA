@@ -1,0 +1,107 @@
+
+:root{
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+    --bleu : #51bfd0;
+    /* --grisclair : rgb(240, 240, 240); */
+    --grisclair : rgb(252, 249, 249);
+  }
+.container2{
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    font-weight: 700;
+    border: 2px var(--bleu) solid;
+    height: 60vh;
+    /* border: 2px solid; */
+
+}
+
+.parametrer{
+    color: var(--bleu);
+    margin: 0 0 3% 3%;
+}
+
+.parametre{
+    display: flex;
+    margin: 3% 3% 3% 3%;
+    align-items: center;
+    
+
+}
+form{
+    height: 51vh;
+  
+   
+}
+.ajouter{
+
+}
+
+input, textarea, select{
+    background-color: var(--grisclair);
+    border: none;
+    /* border: 1px var(--bleu) inset; */
+    box-shadow: 1px 1px 1px 1px var(--bleu);
+    margin-left: 2%;
+}
+input[type="number"]{
+    
+    padding: 8px;
+    width: 70px;
+    border: 1px solid;
+    border: none;
+}
+
+#typeReponse{
+    padding: 10px;
+    width: 50%;
+
+}
+
+.ajouter button{
+    padding: 3px;
+    width: 50px;
+    background-color: var(--bleu);
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.ajouter{
+    margin-left: 10px;
+}
+
+.saver button{
+    background-color: #39ddd6;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.saver{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.generate{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    
+}
+
+.generate input{
+    padding: 10px;
+  margin-bottom:1%;
+}
+.generate img{
+    margin-left: 2%;
+}
+
+
+
+

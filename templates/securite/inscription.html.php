@@ -61,17 +61,24 @@ if (isset($_SESSION[KEY_ERROR])) {
 
                 <div class="fiche">
                     <span>Avatar</span>
-                    <label for="fichier" class="labChoice">choisir un fichier</label>
+
                     <!-- <button>choisir un fichier</button> -->
                 </div>
-                <input type="file" title=" " name="fichier" id="fichier" value="">
+                <input type="file" title=" " name="fichier" id="fichier" value="" onchange="load(this)">
 
                 <button id="creer">Créer un compte</button>
             </form>
         </div>
         <div class="droite">
-            <div class="droite1">
-                <img src="" alt="" width="220px" height="220px" class="img1">
+            <label for="fichier" class="labChoice">
+                <div class="droite1">
+                    <img src=" " class="img1" id="img">
+                </div>
+            </label>
+            <div class="avatarTitle">
+                <h3>Avatar du joueur</h3>
+                <span style="color: red;"><?= isset($errors['password1']) ? $errors['password1'] : '' ?></span>
+
             </div>
         </div>
     </div>
