@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $password = $_POST['password'];
         $password1 = $_POST['password1'];
         $temp_name = $_FILES['fichier']['tmp_name'];
-        $file_name = $_FILES['fichier']["name"];
+        $file_name = $_FILES['fichier']['name'];
 
         //$_SESSION['temp_name'] = $file_name;
 
@@ -135,7 +135,11 @@ function inscrire(string $nom, string $prenom, string $login, string $password, 
     if (!isset($errors['photo'])) {
         $directory = PATH_UPLOAD;
         uploadImage($file_name, $temp_name, $directory, $nom_fichier);
-        $tab['photo'] = $temp_name;
+        $ext = pathinfo($temp_name, PATHINFO_EXTENSION);
+        $tab['photo'] = $nom_fichier . '.' . $ext;
+        // $tab['photo'] = $temp_name ;
+        /*  var_dump($tab['photo']);
+        die; */
     }
 
 

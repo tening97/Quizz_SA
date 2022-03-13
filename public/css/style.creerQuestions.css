@@ -1,4 +1,8 @@
-
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 :root{
     --success-color: #2ecc71;
     --error-color: #e74c3c;
@@ -13,6 +17,9 @@
     font-weight: 700;
     border: 2px var(--bleu) solid;
     height: 60vh;
+    overflow: auto;
+
+    
     /* border: 2px solid; */
 
 }
@@ -38,7 +45,14 @@ form{
 
 }
 
-input, textarea, select{
+ textarea, select{
+    background-color: var(--grisclair);
+    border: none;
+    /* border: 1px var(--bleu) inset; */
+    box-shadow: 1px 1px 1px 1px var(--bleu);
+    margin-left: 2%;
+}
+.nbrePoints{
     background-color: var(--grisclair);
     border: none;
     /* border: 1px var(--bleu) inset; */
@@ -85,12 +99,13 @@ input[type="number"]{
 .saver{
     display: flex;
     justify-content: flex-end;
-
+    
 }
 .generate{
     display: flex;
     flex-direction: column;
     margin-left: 3%;
+    overflow: auto;
     
 }
 
@@ -100,6 +115,14 @@ input[type="number"]{
 }
 .generate img{
     margin-left: 2%;
+    width: 2%;
+}
+input[type="radio"],input[type="checkbox"]{
+    width: 3%;
+    font-size: 55%;
+    box-shadow: 1px 1px 1px 1px var(--grisclair);
+
+  
 }
 
 

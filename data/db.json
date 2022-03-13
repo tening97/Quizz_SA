@@ -267,42 +267,6 @@
         },
         {
             "nom": "NDIAYE",
-            "prenom": "tening",
-            "login": "joeur@gmail.comghgj",
-            "password": "azerty1",
-            "photo": "A11.jpg",
-            "role": "ROLE_JOUEUR",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
-            "prenom": "tening",
-            "login": "joeur@gmail.comggj",
-            "password": "azerty1",
-            "photo": "joeur@gmail.comggj.jpg",
-            "role": "ROLE_JOUEUR",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
-            "prenom": "Ibrahima ",
-            "login": "joeur@gmail.comjdqw",
-            "password": "azerty1",
-            "photo": "A8.jpg",
-            "role": "ROLE_JOUEUR",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
-            "prenom": "Ibrahima ",
-            "login": "joeur@gmail.comffrfrf",
-            "password": "azerty1",
-            "photo": "Presentation PHP MVC.pdf",
-            "role": "ROLE_JOUEUR",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
             "prenom": "Ibrahima ",
             "login": "joeur@gmail.com",
             "password": "azerty1",
@@ -383,94 +347,292 @@
             "score": 0
         },
         {
-            "nom": "MARI",
+            "nom": "Ngom",
             "prenom": "Ibrahima ",
-            "login": "azertya@gmail.com",
-            "password": "radio12",
-            "photo": "A7.jpg",
-            "role": "ROLE_JOUEUR",
+            "login": "azerty1@gmail.com",
+            "password": "trez12",
+            "photo": "azerty1.ROLE_ADMIN",
+            "role": "ROLE_ADMIN",
             "score": 0
         },
         {
             "nom": "NDIAYE",
+            "prenom": "Bachir",
+            "login": "bache1@gmail.com",
+            "password": "azerty1",
+            "photo": "\/tmp\/phpJITDHQ",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "bachir ",
+            "login": "ndiayebachie1@gmail.com",
+            "password": "azerty1",
+            "photo": "A8.jpg",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "MARI",
             "prenom": "Moustapha Sarr",
-            "login": "joeurtapha@gmail.com",
+            "login": "teningngomz97@gmail.com",
             "password": "azerty1",
-            "photo": "A12.jpg",
-            "role": "ROLE_JOUEUR",
-            "score": 0
-        },
-        {
-            "nom": "MARI",
-            "prenom": "Ibrahima ",
-            "login": "joueur34@gmail.com",
-            "password": "joueur34",
-            "photo": "A12.jpg",
-            "role": "ROLE_JOUEUR",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
-            "prenom": "Khadija",
-            "login": "khadija15@gmail.com",
-            "password": "khadija12",
-            "photo": "WhatsApp Image 2022-02-01 at 15.18.33-converti.docx",
-            "role": "ROLE_JOUEUR",
-            "score": 0
-        },
-        {
-            "nom": "DIOP",
-            "prenom": "Mouhamed",
-            "login": "mhd123@gmail.com",
-            "password": "azerty1",
-            "photo": "A3.jpg",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "Diop",
-            "prenom": "Awa",
-            "login": "awadiop@gmail.com",
-            "password": "awa123",
-            "photo": "awadiop.ROLE_ADMIN",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "NDIAYE",
-            "prenom": "Awa",
-            "login": "awa123@gmail.com",
-            "password": "awa123",
-            "photo": "awa123.ROLE_ADMIN",
-            "role": "ROLE_ADMIN",
-            "score": 0
-        },
-        {
-            "nom": "DIOP",
-            "prenom": "Adama",
-            "login": "adama123@gmail.com",
-            "password": "adama123",
-            "photo": "adama123.ROLE_ADMIN",
+            "photo": "teningngomz97.ROLE_ADMIN.jpg",
             "role": "ROLE_ADMIN",
             "score": 0
         },
         {
             "nom": "NDIAYE",
             "prenom": "Ibrahima ",
-            "login": "ndiayeiba00@gmail.com",
+            "login": "adminut@gmail.com",
             "password": "azerty1",
-            "photo": "\/tmp\/phpt4YEBo",
+            "photo": "adminut.ROLE_ADMIN.jpg",
             "role": "ROLE_ADMIN",
             "score": 0
         },
         {
-            "nom": "DIOP",
-            "prenom": "Fallou",
-            "login": "fallou121@gmail.com",
-            "password": "azerty1",
-            "photo": "A12.jpg",
+            "nom": "NDIAYE",
+            "prenom": "Deguene ",
+            "login": "deguene29@gmail.com",
+            "password": "Fleur2001",
+            "photo": "deguene29.ROLE_ADMIN.jpg",
             "role": "ROLE_ADMIN",
             "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "tening",
+            "login": "admintening@gmail.com",
+            "password": "azerty12",
+            "photo": "admintening.ROLE_ADMIN.jpg",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "NDIAYE",
+            "prenom": "Ndeye marie",
+            "login": "ndndiaye@gmail.com",
+            "password": "ndiaye1",
+            "photo": "ndndiaye.ROLE_ADMIN.jpg",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        }
+    ],
+    "questions": [
+        {
+            "question": "question",
+            "nbrePoints": 12,
+            "choice": [
+                "checkbox",
+                "checkbox"
+            ],
+            "reponse": [
+                "zzz",
+                "terg",
+                "terg"
+            ]
+        },
+        {
+            "question": "azzzr",
+            "nbrePoints": 12,
+            "choice": [
+                "radio"
+            ],
+            "reponse": [
+                "edee",
+                "zzzz",
+                "zszzz"
+            ]
+        },
+        {
+            "question": "Question1:azerty edstde uz",
+            "nbrePoints": 11,
+            "choice": [
+                "checkbox",
+                "checkbox"
+            ],
+            "reponse": [
+                "zrfr",
+                "gtet",
+                "errrr"
+            ]
+        },
+        {
+            "question": "Question1:azerty edstde uz",
+            "nbrePoints": 11,
+            "choice": [
+                "checkbox",
+                "checkbox"
+            ],
+            "reponse": [
+                "zrfr",
+                "gtet",
+                "errrr"
+            ]
+        },
+        {
+            "question": "eree",
+            "nbrePoints": 12,
+            "choice": [
+                "1",
+                "4"
+            ],
+            "reponse": [
+                "azerty",
+                "edede",
+                "edee",
+                "edeerfr"
+            ]
+        },
+        {
+            "question": "Quelle est la capitale du senegale",
+            "nbrePoints": 5,
+            "choice": [
+                "1"
+            ],
+            "reponse": [
+                "Dakar",
+                "Saint louis",
+                "ZIG",
+                "louga"
+            ]
+        },
+        {
+            "question": "Quelle est le vainqueur du can 2021",
+            "nbrePoints": 5,
+            "choice": [
+                "4"
+            ],
+            "reponse": [
+                "Malie",
+                "Alg\u00e9rie",
+                "Senegal",
+                "Cameroun"
+            ]
+        },
+        {
+            "question": "Quelle est la capitale de france",
+            "nbrePoints": 5,
+            "choice": [
+                "4"
+            ],
+            "reponse": [
+                "Malie",
+                "Russie",
+                "Paris",
+                "Berlin"
+            ]
+        },
+        {
+            "question": "qui sui je",
+            "nbrePoints": 5,
+            "choice": [
+                "3"
+            ],
+            "reponse": [
+                "Rawane",
+                "Oumy",
+                "Tening"
+            ]
+        },
+        {
+            "question": "qui sui je",
+            "nbrePoints": 4,
+            "choice": [
+                "1"
+            ],
+            "reponse": [
+                "lycee",
+                "ecole",
+                "AZERTY"
+            ]
+        },
+        {
+            "question": "qui sui je",
+            "nbrePoints": 4,
+            "choice": [
+                "1"
+            ],
+            "reponse": [
+                "lycee",
+                "ecole",
+                "AZERTY"
+            ]
+        },
+        {
+            "question": "mmkjhg",
+            "nbrePoints": 12,
+            "choice": [
+                "1"
+            ],
+            "reponse": [
+                "eee",
+                "rddcd",
+                "edeede"
+            ]
+        },
+        {
+            "question": "azerty",
+            "nbrePoints": 11,
+            "choice": [
+                "1"
+            ],
+            "reponse": [
+                "kkk",
+                "k,,nn",
+                "yuu",
+                "ml,"
+            ]
+        },
+        {
+            "question": " jkpo",
+            "nbrePoints": 12,
+            "choice": [
+                "2"
+            ],
+            "reponse": [
+                "k,",
+                "popo",
+                "popopo"
+            ]
+        },
+        {
+            "question": "youyou",
+            "nbrePoints": 12,
+            "choice": [
+                "2"
+            ],
+            "reponse": [
+                "Malie",
+                "azerty",
+                "aze"
+            ]
+        },
+        {
+            "question": "hvvv",
+            "nbrePoints": 12,
+            "choice": [
+                "1"
+            ],
+            "reponse": [
+                "bb",
+                "nb",
+                "jb"
+            ]
+        },
+        {
+            "question": "JE SUIS",
+            "nbrePoints": 12,
+            "choice": [
+                "2",
+                "3"
+            ],
+            "reponse": [
+                "AB",
+                "A",
+                "R"
+            ]
         }
     ]
 }

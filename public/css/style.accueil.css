@@ -20,7 +20,13 @@ a{
     color: grey;
 }
 
-a:hover {
+/* a:hover li {
+    border-left: green 4px solid ;
+    background-color: bisque;
+    padding: 10px;
+    width: 100%;
+} */
+li a:hover {
     border-left: green 4px solid ;
     background-color: bisque;
     padding: 10px;

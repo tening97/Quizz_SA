@@ -26,12 +26,10 @@ typeReponse.addEventListener('change', function () {
         const label = document.createElement('label');
         label.innerText = `Reponse`;
         const input = document.createElement('input');
+        /*  input.setAttribute('name', 'nameInput[]'); */
         const div = document.createElement('div');
-        const img = document.createElement('img');
-        img.src = "./img/ic-supprimer.png";
         div.appendChild(label);
         div.appendChild(input);
-        div.appendChild(img);
         generate.appendChild(div);
 
     }
@@ -44,9 +42,11 @@ function genererElement(element) {
     const label = document.createElement('label');
     label.innerText = `Reponse${cpt}`;
     const input = document.createElement('input');
+    input.setAttribute('name', 'nameInput[]');
     const checkbox = document.createElement('input');
     checkbox.setAttribute('type', `${element}`);
-    checkbox.setAttribute('name', 'choice')
+    checkbox.setAttribute('name', 'choice[]')
+    checkbox.setAttribute('value', `${cpt}`)
     const img = document.createElement('img');
     img.src = "./img/ic-supprimer.png";
     const div = document.createElement('div');
@@ -56,6 +56,10 @@ function genererElement(element) {
     div.appendChild(img);
     generate.appendChild(div);
     cpt++;
+    img.addEventListener('click', function () {
+        div.remove();
+
+    })
 
 }
 

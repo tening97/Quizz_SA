@@ -21,7 +21,7 @@ require_once(PATH_VIEWS . "include" . DIRECTORY_SEPARATOR . "header.inc.html.php
 
             <div class="parametre">
                 <label for="">Nbre de points</label>
-                <input type="number" name="nbrePoints" id="nbrePoints">
+                <input type="number" name="nbrePoints" min="1" id="nbrePoints" class="nbrePoints">
             </div>
 
             <div class="parametre">
@@ -42,12 +42,13 @@ require_once(PATH_VIEWS . "include" . DIRECTORY_SEPARATOR . "header.inc.html.php
             </div>
 
 
-        </form>
+
 
     </div>
     <div class="saver">
         <button class="save">Enregistrer</button>
     </div>
+    </form>
 </div>
 
 <script src="<?= WEBROOT . "js" . DIRECTORY_SEPARATOR . "creerQuestions.js" ?>"></script>
