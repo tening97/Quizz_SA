@@ -30,7 +30,7 @@
             "login": "awa@gmail.com",
             "password": "awadiop1",
             "role": "ROLE_JOUEUR",
-            "score": 0
+            "score": 16
         },
         {
             "nom": "SOW",
@@ -421,217 +421,102 @@
     ],
     "questions": [
         {
-            "question": "question",
-            "nbrePoints": 12,
-            "choice": [
-                "checkbox",
-                "checkbox"
+            "question": "Quelle est la capitale du senegal",
+            "nbrePoints": "6",
+            "typeReponse": "unique",
+            "reponseCorrecte": [
+                "2"
             ],
-            "reponse": [
-                "zzz",
-                "terg",
-                "terg"
-            ]
-        },
-        {
-            "question": "azzzr",
-            "nbrePoints": 12,
-            "choice": [
-                "radio"
-            ],
-            "reponse": [
-                "edee",
-                "zzzz",
-                "zszzz"
-            ]
-        },
-        {
-            "question": "Question1:azerty edstde uz",
-            "nbrePoints": 11,
-            "choice": [
-                "checkbox",
-                "checkbox"
-            ],
-            "reponse": [
-                "zrfr",
-                "gtet",
-                "errrr"
-            ]
-        },
-        {
-            "question": "Question1:azerty edstde uz",
-            "nbrePoints": 11,
-            "choice": [
-                "checkbox",
-                "checkbox"
-            ],
-            "reponse": [
-                "zrfr",
-                "gtet",
-                "errrr"
-            ]
-        },
-        {
-            "question": "eree",
-            "nbrePoints": 12,
-            "choice": [
-                "1",
-                "4"
-            ],
-            "reponse": [
-                "azerty",
-                "edede",
-                "edee",
-                "edeerfr"
-            ]
-        },
-        {
-            "question": "Quelle est la capitale du senegale",
-            "nbrePoints": 5,
-            "choice": [
-                "1"
-            ],
-            "reponse": [
+            "reponses": [
+                "Sandaga",
                 "Dakar",
-                "Saint louis",
-                "ZIG",
-                "louga"
+                "Thies",
+                "Yeumbeul"
             ]
         },
         {
-            "question": "Quelle est le vainqueur du can 2021",
-            "nbrePoints": 5,
-            "choice": [
-                "4"
-            ],
-            "reponse": [
-                "Malie",
-                "Alg\u00e9rie",
-                "Senegal",
-                "Cameroun"
-            ]
-        },
-        {
-            "question": "Quelle est la capitale de france",
-            "nbrePoints": 5,
-            "choice": [
-                "4"
-            ],
-            "reponse": [
-                "Malie",
-                "Russie",
-                "Paris",
-                "Berlin"
-            ]
-        },
-        {
-            "question": "qui sui je",
-            "nbrePoints": 5,
-            "choice": [
-                "3"
-            ],
-            "reponse": [
-                "Rawane",
-                "Oumy",
-                "Tening"
-            ]
-        },
-        {
-            "question": "qui sui je",
-            "nbrePoints": 4,
-            "choice": [
-                "1"
-            ],
-            "reponse": [
-                "lycee",
-                "ecole",
-                "AZERTY"
-            ]
-        },
-        {
-            "question": "qui sui je",
-            "nbrePoints": 4,
-            "choice": [
-                "1"
-            ],
-            "reponse": [
-                "lycee",
-                "ecole",
-                "AZERTY"
-            ]
-        },
-        {
-            "question": "mmkjhg",
-            "nbrePoints": 12,
-            "choice": [
-                "1"
-            ],
-            "reponse": [
-                "eee",
-                "rddcd",
-                "edeede"
-            ]
-        },
-        {
-            "question": "azerty",
-            "nbrePoints": 11,
-            "choice": [
-                "1"
-            ],
-            "reponse": [
-                "kkk",
-                "k,,nn",
-                "yuu",
-                "ml,"
-            ]
-        },
-        {
-            "question": " jkpo",
-            "nbrePoints": 12,
-            "choice": [
-                "2"
-            ],
-            "reponse": [
-                "k,",
-                "popo",
-                "popopo"
-            ]
-        },
-        {
-            "question": "youyou",
-            "nbrePoints": 12,
-            "choice": [
-                "2"
-            ],
-            "reponse": [
-                "Malie",
-                "azerty",
-                "aze"
-            ]
-        },
-        {
-            "question": "hvvv",
-            "nbrePoints": 12,
-            "choice": [
-                "1"
-            ],
-            "reponse": [
-                "bb",
-                "nb",
-                "jb"
-            ]
-        },
-        {
-            "question": "JE SUIS",
-            "nbrePoints": 12,
-            "choice": [
+            "question": "Quelles sont les couleurs du drapeau du senegal?",
+            "nbrePoints": "5",
+            "typeReponse": "multiple",
+            "reponseCorrecte": [
                 "2",
+                "3",
+                "4"
+            ],
+            "reponses": [
+                "bleu",
+                "vert",
+                "rouge",
+                "jaune"
+            ]
+        },
+        {
+            "question": "QUelle est la capitale du raille?",
+            "nbrePoints": "4",
+            "typeReponse": "unique",
+            "reponseCorrecte": [
                 "3"
             ],
-            "reponse": [
-                "AB",
-                "A",
-                "R"
+            "reponses": [
+                "Mbour",
+                "MATAM",
+                "Thies"
+            ]
+        },
+        {
+            "question": "QUelle est la capitale du raille?",
+            "nbrePoints": "4",
+            "typeReponse": "unique",
+            "reponseCorrecte": [
+                "4"
+            ],
+            "reponses": [
+                "Mbour",
+                "Dakar",
+                "Ginaw ray",
+                "Thies"
+            ]
+        },
+        {
+            "question": "QUelle est la capitale du raille?",
+            "nbrePoints": "4",
+            "typeReponse": "unique",
+            "reponseCorrecte": [
+                "4"
+            ],
+            "reponses": [
+                "Mbour",
+                "Dakar",
+                "Ginaw ray",
+                "Thies"
+            ]
+        },
+        {
+            "question": "Ou habite Cheikhou?",
+            "nbrePoints": "4",
+            "typeReponse": "multiple",
+            "reponseCorrecte": [
+                "Medina",
+                "Kaolack"
+            ],
+            "reponses": [
+                "Medina",
+                "Mermoz",
+                "Kaolack",
+                "Saint louis"
+            ]
+        },
+        {
+            "question": "Qui est le mari de tening?",
+            "nbrePoints": "4",
+            "typeReponse": "unique",
+            "reponseCorrecte": [
+                "Rawane"
+            ],
+            "reponses": [
+                "Rawane",
+                "Cheikhou",
+                "MSB"
             ]
         }
     ]

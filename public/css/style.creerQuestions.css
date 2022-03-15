@@ -36,6 +36,30 @@
     
 
 }
+#champPoint input{
+
+  background-color: var(--grisclair);
+    border: none;
+    /* border: 1px var(--bleu) inset; */
+    box-shadow: 1px 1px 1px 1px var(--bleu);
+   
+}
+.minplus{
+    padding: 1%;
+  width: 5%;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.nbrePoints{
+    background-color: var(--grisclair);
+    border: none;
+    padding: 1%;
+    width: 10%;
+    box-shadow: 1px 1px 1px 1px var(--bleu);
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
 form{
     height: 51vh;
   
@@ -46,13 +70,6 @@ form{
 }
 
  textarea, select{
-    background-color: var(--grisclair);
-    border: none;
-    /* border: 1px var(--bleu) inset; */
-    box-shadow: 1px 1px 1px 1px var(--bleu);
-    margin-left: 2%;
-}
-.nbrePoints{
     background-color: var(--grisclair);
     border: none;
     /* border: 1px var(--bleu) inset; */

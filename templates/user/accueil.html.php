@@ -30,7 +30,7 @@ if (isset($_SESSION['info_temp'])) {
                 <?php if (is_admin()) { ?>
                     <ul>
 
-                        <a href="">
+                        <a href="<?= WEBROOT . "?controller=questions&action=liste.question" ?>">
                             <li>Liste des Questions <img src="img/ic-liste.png" alt=""></li>
                         </a>
 

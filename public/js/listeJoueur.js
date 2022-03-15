@@ -3,7 +3,7 @@ const precedent = document.getElementById('precedent');
 const table = document.querySelector('table');
 const trElement = document.querySelectorAll('.tr_valeur');
 const trEntete = document.getElementById('entete');
-console.log(trEntete);
+
 
 
 let nbrJoueursParPag = 5;

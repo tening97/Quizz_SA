@@ -89,7 +89,7 @@ item1.addEventListener('input', function () {
 forme.addEventListener('submit', function (e) {
     if (validateEmail(login) || valid_password(pwd) || checkRequired([login, pwd])) {
         e.preventDefault();
-        forme.style.border = '4px solid red';
+        /* forme.style.border = '4px solid red'; */
     }
 
 

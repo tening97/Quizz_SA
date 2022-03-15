@@ -1,0 +1,31 @@
+.containerQuestion{
+   height: 100%;
+   margin-top: 2%;
+   box-shadow: 5px 5px 5px 5px rgba(8, 4, 8, 0.2); 
+  
+
+}
+.entete{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin: 2% 2% 2% 2%;
+    color: #9b8f81;
+}
+.entete input{
+    width: 5%;
+    margin-left: 2% ;
+   
+}
+#ok{
+    color: white;
+    background-color: #5e91b0;
+}
+.question{
+    display: flex;
+    width: 90%;
+    height: 85%;
+    margin-left:4% ;
+    border: solid 2px #e5d5c3;
+    border-radius: 2%;
+}
